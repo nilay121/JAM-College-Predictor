@@ -1,0 +1,43 @@
+<<!DOCKTYPE html>
+<html lang="en">
+	<head>
+		<title>Jam Predictor</title>
+	</head>
+	
+	<body>
+			<form action='/predict' method="POST">
+					<label for='course'>Select the Course :- </label>
+					<select id="course" name="course",required>
+						<option value="BIOTECHNOLOGY">BIOTECHNOLOGY</option>
+						<option value="PHYSICS">PHYSICS</option>
+						<option value="CHEMISTRY">CHEMISTRY</option>
+						<option value="MATHEMATICS">MATHEMATICS</option>
+						<option value="NUCLEAR MEDICINE">NUCLEAR MEDICINE</option>
+						<option value="GEOPHYSICS">GEOPHYSICS</option>
+						<option value="ENERGY">ENERGY</option>
+						<option value="APPLIED GEOLOGY">APPLIED GEOLOGY</option>
+						<option value="MEDICAL PHYSICS">MEDICAL PHYSICS</option>
+						<option value="ASTRONOMY">ASTRONOMY</option>
+					</select>
+				<br>
+				<label for='caste'>Select the Caste :- </label> 
+				<select id="caste" name="caste",required>
+						<option value="GEN">GENERAL</option>
+						<option value="OBC">OBC</option>
+						<option value="SC">SC</option>
+						<option value="ST">ST</option>
+				</select>
+				<br>
+				Enter the AIR :-<input type='text' id='rank' name='rank'><br>
+				<br>
+				<input type='submit' value='Predict'> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+				<input type="reset",value='Reset'>
+			</form>
+			<br>
+			<br>
+			<br>
+			{{Make_Prediction}}
+			<br>
+
+	</body>
+</html>
