@@ -36,7 +36,7 @@ def predict():
     elif caste_inf=="SC":
         data={"Course":[course_inf],"Closing_sc":[rank]}
         df=pd.DataFrame(data)
-        pred=pipe_st.predict(df)
+        pred=pipe_sc.predict(df)
     elif caste_inf=="ST":
         data={"Course":[course_inf],"Closing_st":[rank]}
         df=pd.DataFrame(data)
