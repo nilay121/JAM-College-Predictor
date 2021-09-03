@@ -23,7 +23,8 @@ and the Numerical columns using One Hot encoding and Standard Scalar in just one
 
 
 
-The model has been hosted on Heroku Platform 
+The model has been hosted on Heroku Platform  using Flask API
+<br>
 Model link :- https://jam-college-predictor.herokuapp.com 
 <br>
 Youtube link :- https://www.youtube.com/watch?v=pvaKRrik69o
